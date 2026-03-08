@@ -1,4 +1,3 @@
-plugins {
-    alias(libs.plugins.android.application) apply false
-    alias(libs.plugins.kotlin.android) apply false
-}
+// Root build script intentionally empty to avoid plugin-resolution issues
+// Plugins are applied per-module in their respective build scripts.
+
